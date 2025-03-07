@@ -64,4 +64,10 @@ onMounted(() => {
   color: #28a745;
   border: 1px solid #28a745;
 }
+
+.warn {
+  background-color: #fff3e0;
+  color: #f57c00;
+  border: 1px solid #f57c00;
+}
 </style>

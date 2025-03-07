@@ -45,12 +45,12 @@ import { QModernBanner } from 'q-modern-banner'
 
 ## 🎨 Props
 
-| Prop     | Type   | Note                                        |  
-|----------|--------|---------------------------------------------|
-| title    | String | ---                                         |
-| subtitle | String | ---                                         |
-| icon     | String | Uses Google Material Icons (Quasar Default) |
-| type     | String | Either use `info`, `error` or `success`     |
+| Prop     | Type   | Note                                            |  
+|----------|--------|-------------------------------------------------|
+| title    | String | ---                                             |
+| subtitle | String | ---                                             |
+| icon     | String | Uses Google Material Icons (Quasar Default)     |
+| type     | String | Either use `info`, `error`, `warn` or `success` |
 
 ---
 

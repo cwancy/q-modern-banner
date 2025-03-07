@@ -1,6 +1,6 @@
 {
   "name": "q-modern-banner",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Quasar Modern Banner - Clean, Modern &amp; Alternative Banner for Developers using Quasar",
   "main": "index.js",
   "scripts": {
