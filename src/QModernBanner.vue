@@ -1,5 +1,5 @@
 <template>
-  <q-banner :class="`q-ma-lg base ${props.type}`">
+  <q-banner :class="`q-ma-lg base ${props.type} ${props.class}`">
     <div class="row items-center">
       <div class="q-mr-sm">
         <q-icon :name="props.icon" size="md" />
@@ -36,6 +36,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  class: {
+    type: String,
+    required: false
+  }
 })
 
 onMounted(() => {
